@@ -29,20 +29,19 @@ namespace LibraryCrea.Domain.Dtos.Movimentacao
         [Required(ErrorMessage = "O ano deve ser obrigatório"]
         public DateTime Ano { get; set; }
 
-        public Situacao situacao { get; set; }
 
         public virtual PessoaEntity Autor { get; set; }
         public Guid AutorId { get; set; }
         public virtual CadastroCategoriaEntity Categoria { get; set; }
         public Guid CategoriaId { get; set; }
-        public enum Situacao
-        {
-            Disponivel,
-            Emprestado,
-            Extraviado,
-            Manutencao
-        }
+        public SituacaoEmprestimo situacaoEmprestimo { get; set; }
 
+        public enum SituacaoEmprestimo
+        {
+            Emprestado, 
+            Atrasado,
+            Devolvido
+        }
         public DateTime UpdateAt { get; set; }
     }
 }

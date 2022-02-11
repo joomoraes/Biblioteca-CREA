@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LibraryCrea.Domain.Interface.Service.Movimentacao
 {
-    public interface IMovimentacaoRepository
+    public interface IMovimentacaoService
     {
         Task<MovimentacaoDto> Get(Guid Id);
         Task<IEnumerable<MovimentacaoDto>> GetAll();

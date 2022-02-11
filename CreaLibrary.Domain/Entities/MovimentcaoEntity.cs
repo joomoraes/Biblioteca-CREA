@@ -22,6 +22,8 @@ namespace LibraryCrea.Domain.Entities
         public DateTime MaxDevolucacao { get; set; }
         public DateTime Devolucao { get; set; }
 
+        public SituacaoEmprestimo situacaoEmprestimo { get; set; }
+
         public enum SituacaoEmprestimo
         {
             Emprestado, 

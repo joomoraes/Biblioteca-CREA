@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LibraryCrea.Domain.Models
 {
-    public interface ICadastroCategoriaRepository
+    public interface ICadastroCategoriaService
     {
         Task<CadastroCategoriaDto> Get(Guid id);
         Task<IEnumerable<CadastroCategoriaDto>> GetAll();
