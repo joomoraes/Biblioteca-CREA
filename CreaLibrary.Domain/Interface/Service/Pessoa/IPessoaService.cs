@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LibraryCrea.Domain.Interface.Service.Pessoa
 {
-    public interface IPessoaRepository
+    public interface IPessoaService
     {
         Task<PessoaDto> Get(Guid Id);
         Task<IEnumerable<PessoaDto>> GetAll();

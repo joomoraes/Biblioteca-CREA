@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "WkdCzS+iJhsPmYke9X4Y7AoMcMDDOnDWDwt66gd/nEbpoKK72c8di6zxwUlkbXXJDnpSxJhDehfOlTboEpLpNQ==",
+  "dgSpecHash": "QV1Ccaej34Nsv3SRaWBHktf8uTPRej+tk6afBD/G7R8Gvzj/FIgFaRKHM93xYoQoiBjK5btxZM5MWNwfuu9NYw==",
   "success": true,
   "projectFilePath": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Service\\LibraryCrea.Service.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\joao.alves\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\joao.alves\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
