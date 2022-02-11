@@ -2340,8 +2340,8 @@
     },
     "LibraryCrea.Domain/1.0.0": {
       "type": "project",
-      "path": "../CreaLibrary.Domain/LibraryCrea.Domain.csproj",
-      "msbuildProject": "../CreaLibrary.Domain/LibraryCrea.Domain.csproj"
+      "path": "../LibraryCrea.Domain/LibraryCrea.Domain.csproj",
+      "msbuildProject": "../LibraryCrea.Domain/LibraryCrea.Domain.csproj"
     },
     "LibraryCrea.Service/1.0.0": {
       "type": "project",
@@ -2396,6 +2396,9 @@
             },
             "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Data\\LibraryCrea.Data.csproj": {
               "projectPath": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Data\\LibraryCrea.Data.csproj"
+            },
+            "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Domain\\LibraryCrea.Domain.csproj": {
+              "projectPath": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Domain\\LibraryCrea.Domain.csproj"
             },
             "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Service\\LibraryCrea.Service.csproj": {
               "projectPath": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Service\\LibraryCrea.Service.csproj"

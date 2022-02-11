@@ -1,5 +1,5 @@
-﻿using Api.Data.Repository;
-using LibraryCrea.Data.Context;
+﻿using LibraryCrea.Data.Context;
+using LibraryCrea.Data.Repository;
 using LibraryCrea.Domain.Entities;
 using LibraryCrea.Domain.Repository;
 using Microsoft.EntityFrameworkCore;

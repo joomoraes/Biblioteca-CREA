@@ -1,0 +1,15 @@
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Service\bin\Debug\net6.0\LibraryCrea.Service.deps.json
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Service\bin\Debug\net6.0\LibraryCrea.Service.dll
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Service\bin\Debug\net6.0\ref\LibraryCrea.Service.dll
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Service\bin\Debug\net6.0\LibraryCrea.Service.pdb
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Service\bin\Debug\net6.0\LibraryCrea.Domain.dll
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Service\bin\Debug\net6.0\LibraryCrea.Domain.pdb
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Service\obj\Debug\net6.0\LibraryCrea.Service.csproj.AssemblyReference.cache
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Service\obj\Debug\net6.0\LibraryCrea.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Service\obj\Debug\net6.0\LibraryCrea.Service.AssemblyInfoInputs.cache
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Service\obj\Debug\net6.0\LibraryCrea.Service.AssemblyInfo.cs
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Service\obj\Debug\net6.0\LibraryCrea.Service.csproj.CoreCompileInputs.cache
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Service\obj\Debug\net6.0\LibraryCrea.Service.csproj.CopyComplete
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Service\obj\Debug\net6.0\LibraryCrea.Service.dll
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Service\obj\Debug\net6.0\ref\LibraryCrea.Service.dll
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Service\obj\Debug\net6.0\LibraryCrea.Service.pdb

@@ -1,0 +1,17 @@
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Data\bin\Debug\net6.0\LibraryCrea.Data.deps.json
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Data\bin\Debug\net6.0\LibraryCrea.Data.runtimeconfig.json
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Data\bin\Debug\net6.0\LibraryCrea.Data.dll
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Data\bin\Debug\net6.0\ref\LibraryCrea.Data.dll
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Data\bin\Debug\net6.0\LibraryCrea.Data.pdb
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Data\bin\Debug\net6.0\LibraryCrea.Domain.dll
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Data\bin\Debug\net6.0\LibraryCrea.Domain.pdb
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Data\obj\Debug\net6.0\LibraryCrea.Data.csproj.AssemblyReference.cache
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Data\obj\Debug\net6.0\LibraryCrea.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Data\obj\Debug\net6.0\LibraryCrea.Data.AssemblyInfoInputs.cache
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Data\obj\Debug\net6.0\LibraryCrea.Data.AssemblyInfo.cs
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Data\obj\Debug\net6.0\LibraryCrea.Data.csproj.CoreCompileInputs.cache
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Data\obj\Debug\net6.0\LibraryCrea.Data.csproj.CopyComplete
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Data\obj\Debug\net6.0\LibraryCrea.Data.dll
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Data\obj\Debug\net6.0\ref\LibraryCrea.Data.dll
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Data\obj\Debug\net6.0\LibraryCrea.Data.pdb
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Data\obj\Debug\net6.0\LibraryCrea.Data.genruntimeconfig.cache

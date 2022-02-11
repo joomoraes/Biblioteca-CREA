@@ -1,0 +1,12 @@
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Domain\bin\Debug\net6.0\LibraryCrea.Domain.deps.json
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Domain\bin\Debug\net6.0\LibraryCrea.Domain.dll
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Domain\bin\Debug\net6.0\ref\LibraryCrea.Domain.dll
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Domain\bin\Debug\net6.0\LibraryCrea.Domain.pdb
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Domain\obj\Debug\net6.0\LibraryCrea.Domain.csproj.AssemblyReference.cache
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Domain\obj\Debug\net6.0\LibraryCrea.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Domain\obj\Debug\net6.0\LibraryCrea.Domain.AssemblyInfoInputs.cache
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Domain\obj\Debug\net6.0\LibraryCrea.Domain.AssemblyInfo.cs
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Domain\obj\Debug\net6.0\LibraryCrea.Domain.csproj.CoreCompileInputs.cache
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Domain\obj\Debug\net6.0\LibraryCrea.Domain.dll
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Domain\obj\Debug\net6.0\ref\LibraryCrea.Domain.dll
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.Domain\obj\Debug\net6.0\LibraryCrea.Domain.pdb

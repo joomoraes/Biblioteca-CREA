@@ -1,8 +1,9 @@
-﻿using Api.Data.Repository;
-using LibraryCrea.Data.Context;
+﻿using LibraryCrea.Data.Context;
 using LibraryCrea.Data.Implementations;
+using LibraryCrea.Data.Repository;
 using LibraryCrea.Domain.Interface.Service;
 using LibraryCrea.Domain.Repository;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;

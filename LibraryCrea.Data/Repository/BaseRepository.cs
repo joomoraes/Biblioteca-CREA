@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Api.Data.Repository
+namespace LibraryCrea.Data.Repository
 {
     public class BaseRepository<T> : IRepository<T> where T : BaseEntity
     {
@@ -22,11 +22,11 @@ namespace Api.Data.Repository
             _dataset = context.Set<T>();
         }
 
-        public async Task<bool> DeleteAsync(int id)
+        public async Task<bool> DeleteAsync(Guid id)
         {
             try
             {
-                var result = await _dataset.SingleOrDefaultAsync(p => p.Equals(id));
+                var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(id));
                 if (result == null)
                     return false;
 
@@ -34,6 +34,7 @@ namespace Api.Data.Repository
                 await _context.SaveChangesAsync();
 
                 return true;
+
             }
             catch (Exception ex)
             {
@@ -41,15 +42,21 @@ namespace Api.Data.Repository
             }
         }
 
-        public async Task<bool> ExistAsync(int id)
+        public async Task<bool> ExistsAsync(Guid id)
         {
-            return await _dataset.AnyAsync(p => p.Equals(id));
+            return await _dataset.AnyAsync(p => p.Id.Equals(id));
+
         }
 
         public async Task<T> InsertAsync(T item)
         {
             try
             {
+                if (item.Id == Guid.Empty)
+                {
+                    item.Id = Guid.NewGuid();
+                }
+
                 item.CreateAt = DateTime.UtcNow;
                 _dataset.Add(item);
 
@@ -60,10 +67,11 @@ namespace Api.Data.Repository
             {
                 throw ex;
             }
+
             return item;
         }
 
-        public async Task<IEnumerable<T>> SelectAsync()
+        public async Task<IEnumerable<T>> SelecAsync()
         {
             try
             {
@@ -75,7 +83,7 @@ namespace Api.Data.Repository
             }
         }
 
-        public async Task<T> SelectAsync(int id)
+        public async Task<T> SelecAsync(Guid id)
         {
             try
             {

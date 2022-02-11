@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "080ee9db-b9f8-41ac-a808-0ac7942c7c5b": {
+      "ProjectGuid": "080ee9db-b9f8-41ac-a808-0ac7942c7c5b",
+      "DisplayName": "LibraryCrea.Application",
+      "ColorIndex": 0
+    },
+    "cd9ae374-08e0-4ec3-b6c3-c0ccfde74234": {
+      "ProjectGuid": "cd9ae374-08e0-4ec3-b6c3-c0ccfde74234",
+      "DisplayName": "LibraryCrea.CrossCutting",
+      "ColorIndex": 1
+    },
+    "37fc1493-2276-4e59-a7f7-6ca15e880515": {
+      "ProjectGuid": "37fc1493-2276-4e59-a7f7-6ca15e880515",
+      "DisplayName": "LibraryCrea.Data",
+      "ColorIndex": 2
+    },
+    "38f3c628-0dd4-426c-9be5-37da35b8d782": {
+      "ProjectGuid": "38f3c628-0dd4-426c-9be5-37da35b8d782",
+      "DisplayName": "LibraryCrea.Domain",
+      "ColorIndex": 3
+    },
+    "73ca4849-182c-47a7-9af0-f33bd124d3b2": {
+      "ProjectGuid": "73ca4849-182c-47a7-9af0-f33bd124d3b2",
+      "DisplayName": "LibraryCrea.Service",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    },
+    "9eb72f7d-39b8-4ba8-9856-842f8f892db8": {
+      "ProjectGuid": "9eb72f7d-39b8-4ba8-9856-842f8f892db8",
+      "DisplayName": "LibraryCrea.Application",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
