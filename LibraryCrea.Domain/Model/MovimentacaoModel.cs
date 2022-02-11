@@ -18,21 +18,6 @@ namespace LibraryCrea.Domain.Model
             set { _Id = value; }
         }
 
-        private MovimentcaoEntity _Movimentacao;
-
-        public MovimentcaoEntity Movimentacao
-        {
-            get { return _Movimentacao; }
-            set { _Movimentacao = value; }
-        }
-
-        private Guid _MovimentacaoId;
-
-        public Guid MovimentacaoId
-        {
-            get { return _MovimentacaoId; }
-            set { _MovimentacaoId = value; }
-        }
 
         private CadastroLivroEntity _Livro;
 

@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using LibraryCrea.CrossCutting.DependencyInjection;
 using LibraryCrea.CrossCutting.Mappings;
-using LibraryCrea.Data.Security;
+using LibraryCrea.Domain.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;

@@ -10,8 +10,6 @@ namespace LibraryCrea.Domain.Dtos.Movimentacao
     public class MovimentacaoDto
     {
         public Guid Id { get; set; }
-        public virtual MovimentcaoEntity Movimentacao { get; set; }
-        public Guid MovimentacaoId { get; set; }
 
         public virtual CadastroLivroEntity Livro { get; set; }
         public Guid LivroId { get; set; }

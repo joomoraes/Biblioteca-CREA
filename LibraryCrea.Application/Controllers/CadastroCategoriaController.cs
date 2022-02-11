@@ -32,8 +32,7 @@ namespace LibraryCrea.Application.Controllers
             }
         }
 
-        [HttpGet]
-        [Route("{id}", Name = "GetCadastroCategoriaWithId")]
+        [HttpGet("CadastroCategoriaWithId/{id}")]
         public async Task<ActionResult> Get(Guid id)
         {
             if (!ModelState.IsValid)

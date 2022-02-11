@@ -44,6 +44,7 @@ namespace LibraryCrea.Domain.Entities
 
     public class DadosParaContato
     {
+        public Guid Id { get; set; }
         //isUniq JS
         [Display(Name = "Telefone", Description = "Telefone Contato")]
         public int Tel { get; set; }

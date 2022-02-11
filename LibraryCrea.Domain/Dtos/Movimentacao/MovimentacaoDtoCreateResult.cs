@@ -10,33 +10,18 @@ namespace LibraryCrea.Domain.Dtos.Movimentacao
 {
     public class MovimentacaoDtoCreateResult
     {
-        [Display(Name = "ISBN", Description = "Cadastro Único de Livro")]
-        [Required(ErrorMessage = "O Cadastro Único de Livro é Obrigatório")]
-        public string ISBN { get; set; }
+        public virtual CadastroLivroEntity Livro { get; set; }
+        public Guid LivroId { get; set; }
+        public virtual PessoaEntity PessoaEmprestimo { get; set; }
+        public Guid PessoaEmprestimoId { get; set; }
 
-        [Display(Name = "Título", Description = "Título do Livro")]
-        [Required(ErrorMessage = "O título do livro é obrigatório")]
-        public string Titulo { get; set; }
+        public virtual PessoaEntity PessoaResponsavel { get; set; }
+        public Guid PessoaResponsavelId { get; set; }
 
-        [Display(Name = "Editora", Description = "Nome Editora Livro")]
-        [Required(ErrorMessage = "Editora Deve Ser Obrigatório")]
-        public string Editora { get; set; }
-
-        [Display(Name = "Edição", Description = "Edição Livro")]
-        [Required(ErrorMessage = "Edição deve ser obrigatória")]
-        public string Edicao { get; set; }
-        [Display(Name = "Ano", Description = "Ano da Puplicão")]
-        [Required(ErrorMessage = "O ano deve ser obrigatório")]
-        public DateTime Ano { get; set; }
-
-
-
-        public virtual PessoaEntity Autor { get; set; }
-        public Guid AutorId { get; set; }
-        public virtual CadastroCategoriaEntity Categoria { get; set; }
-        public Guid CategoriaId { get; set; }
-
+        public DateTime MaxDevolucacao { get; set; }
+        public DateTime Devolucao { get; set; }
         public SituacaoEmprestimo situacaoEmprestimo { get; set; }
+
 
         public enum SituacaoEmprestimo
         {

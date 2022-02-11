@@ -32,8 +32,7 @@ namespace LibraryCrea.Application.Controllers
             }
         }
 
-        [HttpGet]
-        [Route("{id", Name = "GetPessoaWithId")]
+        [HttpGet("PessoaWithId/{id}")]
         public async Task<ActionResult> Get(Guid id)
         {
             if (!ModelState.IsValid)

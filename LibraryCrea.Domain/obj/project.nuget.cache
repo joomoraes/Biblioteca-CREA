@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "1pDzb5ONAo+znZaY19LZsqYOJ7iCQVShJ5SbZtY23/Q4h0judjARk0TV9z8CqrzoCKHNHBxZonX8waim53icmQ==",
+  "dgSpecHash": "jiC0L7azAUwMP/AvwIZ8IiTWZbf8LgubZmcih/W4pTTCeizSfzEQZHCnFj2uOMARM17qzRv0owJr6VXb6dlqZA==",
   "success": true,
   "projectFilePath": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Domain\\LibraryCrea.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\joao.alves\\.nuget\\packages\\microsoft.identitymodel.logging\\6.15.1\\microsoft.identitymodel.logging.6.15.1.nupkg.sha512",
+    "C:\\Users\\joao.alves\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.15.1\\microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

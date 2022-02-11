@@ -6,7 +6,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LibraryCrea.Data.Security
+namespace LibraryCrea.Domain.Security
 {
     public class SigningConfigurations
     {

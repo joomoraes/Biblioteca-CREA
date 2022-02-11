@@ -17,14 +17,10 @@ namespace LibraryCrea.Data.Mappings
 
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.MovimentacaoId);
-            builder.HasOne(x => x.Movimentacao);
 
             builder.Property(x => x.LivroId);
-            builder.HasOne(x => x.Livro);
 
             builder.Property(x => x.PessoaEmprestimoId);
-            builder.HasOne(x => x.PessoaEmprestimo);
 
             builder.Property(x => x.MaxDevolucacao);
             builder.Property(x => x.Devolucao);
