@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "B8JgyAlYFgy5Qh9rrLVInlruvIOVqLSnxCokC05YJ9XsvVI0PW6cyxCNKDb0UwjOXhNtCCtzznDaa2jA9g5UMg==",
+  "dgSpecHash": "oZdu7rCJMAgWg1MzsHO2gCG6B0Zk/CgiGK/6jocxoYCioFdEzDnEVeg44L9o1SfXf1y6IIRQblKt7Rn+t9tNgg==",
   "success": true,
   "projectFilePath": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.CrossCutting\\LibraryCrea.CrossCutting.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\joao.alves\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\joao.alves\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\joao.alves\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\joao.alves\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

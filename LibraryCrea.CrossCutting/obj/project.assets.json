@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "AutoMapper/11.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {}
+        }
+      },
       "EntityFramework/6.4.4": {
         "type": "package",
         "dependencies": {
@@ -730,10 +742,65 @@
             "rid": "win"
           }
         }
+      },
+      "LibraryCrea.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EntityFramework": "6.4.4",
+          "LibraryCrea.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.2"
+        },
+        "compile": {
+          "bin/placeholder/LibraryCrea.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryCrea.Data.dll": {}
+        }
+      },
+      "LibraryCrea.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LibraryCrea.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryCrea.Domain.dll": {}
+        }
+      },
+      "LibraryCrea.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper": "11.0.1",
+          "LibraryCrea.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LibraryCrea.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryCrea.Service.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "AutoMapper/11.0.1": {
+      "sha512": "WIadGC1pIwbnyTubvI577p3F++Bsj9q2Q3OaAc1I0QS+JhupN1xkdrPBhI9bPIeg63zM81tZplUNYkqU1HE5jQ==",
+      "type": "package",
+      "path": "automapper/11.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.11.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.dll",
+        "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
     "EntityFramework/6.4.4": {
       "sha512": "yj1+/4tci7Panu3jKDHYizxwVm0Jvm7b7m057b5h4u8NUHGCR8WIWirBTw+8EptRffwftIWPBeIRGNKD1ewEMQ==",
       "type": "package",
@@ -2265,11 +2332,29 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "LibraryCrea.Data/1.0.0": {
+      "type": "project",
+      "path": "../LibraryCrea.Data/LibraryCrea.Data.csproj",
+      "msbuildProject": "../LibraryCrea.Data/LibraryCrea.Data.csproj"
+    },
+    "LibraryCrea.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CreaLibrary.Domain/LibraryCrea.Domain.csproj",
+      "msbuildProject": "../CreaLibrary.Domain/LibraryCrea.Domain.csproj"
+    },
+    "LibraryCrea.Service/1.0.0": {
+      "type": "project",
+      "path": "../LibraryCrea.Service/LibraryCrea.Service.csproj",
+      "msbuildProject": "../LibraryCrea.Service/LibraryCrea.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "EntityFramework >= 6.4.4",
+      "LibraryCrea.Data >= 1.0.0",
+      "LibraryCrea.Domain >= 1.0.0",
+      "LibraryCrea.Service >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.2"
@@ -2305,7 +2390,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\CreaLibrary.Domain\\LibraryCrea.Domain.csproj": {
+              "projectPath": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\CreaLibrary.Domain\\LibraryCrea.Domain.csproj"
+            },
+            "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Data\\LibraryCrea.Data.csproj": {
+              "projectPath": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Data\\LibraryCrea.Data.csproj"
+            },
+            "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Service\\LibraryCrea.Service.csproj": {
+              "projectPath": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Service\\LibraryCrea.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
