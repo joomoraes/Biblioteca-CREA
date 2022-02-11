@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LibraryCrea.Domain.Repository
 {
-    public interface CadastroLivroRepository : IRepository<CadastroLivroEntity>
+    public interface ICadastroLivroRepository : IRepository<CadastroLivroEntity>
     {
 
     }

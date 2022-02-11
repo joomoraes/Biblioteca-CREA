@@ -12,7 +12,7 @@ namespace LibraryCrea.Domain.Interface.Service
         Task<T> InsertAsync(T item);
         Task<T> UpdateAsync(T item);
         Task<bool> DeleteAsync(Guid id);
-        Task<IEnumerable<T>> SelecAsynct();
+        Task<IEnumerable<T>> SelecAsync();
         Task<T> SelecAsync(Guid id);
         Task<bool> ExistsAsync(Guid id);
     }

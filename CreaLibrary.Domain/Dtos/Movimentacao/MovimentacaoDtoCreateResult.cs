@@ -26,7 +26,7 @@ namespace LibraryCrea.Domain.Dtos.Movimentacao
         [Required(ErrorMessage = "Edição deve ser obrigatória")]
         public string Edicao { get; set; }
         [Display(Name = "Ano", Description = "Ano da Puplicão")]
-        [Required(ErrorMessage = "O ano deve ser obrigatório"]
+        [Required(ErrorMessage = "O ano deve ser obrigatório")]
         public DateTime Ano { get; set; }
 
 
