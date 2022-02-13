@@ -6,8 +6,8 @@ C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\L
 C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.CrossCutting\bin\Debug\net6.0\LibraryCrea.Data.dll
 C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.CrossCutting\bin\Debug\net6.0\LibraryCrea.Domain.dll
 C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.CrossCutting\bin\Debug\net6.0\LibraryCrea.Service.dll
-C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.CrossCutting\bin\Debug\net6.0\LibraryCrea.Domain.pdb
 C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.CrossCutting\bin\Debug\net6.0\LibraryCrea.Data.pdb
+C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.CrossCutting\bin\Debug\net6.0\LibraryCrea.Domain.pdb
 C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.CrossCutting\bin\Debug\net6.0\LibraryCrea.Service.pdb
 C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.CrossCutting\obj\Debug\net6.0\LibraryCrea.CrossCutting.csproj.AssemblyReference.cache
 C:\Users\joao.alves\Desktop\Projeto\API\ApiPortalLicenca\CreaBibliotecaProjeto\LibraryCrea.CrossCutting\obj\Debug\net6.0\LibraryCrea.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig

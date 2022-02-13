@@ -13,7 +13,7 @@ namespace LibraryCrea.Application.Controllers
 
         public PessoaController(IPessoaService service)
         {
-            _service = service; 
+            _service = service;
         }
 
         [HttpGet]
@@ -32,7 +32,8 @@ namespace LibraryCrea.Application.Controllers
             }
         }
 
-        [HttpGet("PessoaWithId/{id}")]
+        [HttpGet]
+        [Route("{id}", Name = "GetPessoaWithId")]
         public async Task<ActionResult> Get(Guid id)
         {
             if (!ModelState.IsValid)
@@ -58,10 +59,11 @@ namespace LibraryCrea.Application.Controllers
             try
             {
                 var result = await _service.Post(pessoa);
-                if(result != null)
+                if (result != null)
                 {
                     return Ok(result);
-                } else
+                }
+                else
                 {
                     return BadRequest();
                 }
@@ -72,7 +74,7 @@ namespace LibraryCrea.Application.Controllers
                 return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
             }
         }
-        
+
         [HttpPut]
         public async Task<ActionResult> Put([FromBody] PessoaDtoUpdate pessoa)
         {
@@ -82,10 +84,11 @@ namespace LibraryCrea.Application.Controllers
             try
             {
                 var result = await _service.Put(pessoa);
-                if(result != null)
+                if (result != null)
                 {
                     return Ok(result);
-                } else
+                }
+                else
                 {
                     return BadRequest();
                 }

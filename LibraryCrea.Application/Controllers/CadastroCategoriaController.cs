@@ -32,7 +32,8 @@ namespace LibraryCrea.Application.Controllers
             }
         }
 
-        [HttpGet("CadastroCategoriaWithId/{id}")]
+        [HttpGet]
+        [Route("{id}", Name = "GetCadastroCategoriaWithId")]
         public async Task<ActionResult> Get(Guid id)
         {
             if (!ModelState.IsValid)
@@ -60,12 +61,12 @@ namespace LibraryCrea.Application.Controllers
                 if (result != null)
                 {
                     return Ok(result);
-                } else
+                }
+                else
                 {
                     return BadRequest();
                 }
 
-                return Ok(result);
             }
             catch (ArgumentException ex)
             {
@@ -85,7 +86,8 @@ namespace LibraryCrea.Application.Controllers
                 if (result != null)
                 {
                     return Ok(result);
-                } else
+                }
+                else
                 {
                     return BadRequest();
                 }

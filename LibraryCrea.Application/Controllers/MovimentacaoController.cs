@@ -5,6 +5,7 @@ using System.Net;
 
 namespace LibraryCrea.Application.Controllers
 {
+
     [ApiController]
     [Route("api/[controller]")]
     public class MovimentacaoController : ControllerBase
@@ -13,7 +14,7 @@ namespace LibraryCrea.Application.Controllers
 
         public MovimentacaoController(IMovimentacaoService service)
         {
-            _service = service; 
+            _service = service;
         }
 
         [HttpGet]
@@ -33,7 +34,8 @@ namespace LibraryCrea.Application.Controllers
             }
         }
 
-        [HttpGet("MovimentacaoWithId/{id}")]
+        [HttpGet]
+        [Route("{id}", Name = "GetMovimentacaoWithId")]
         public async Task<ActionResult> Get(Guid id)
         {
             if (!ModelState.IsValid)
@@ -59,10 +61,11 @@ namespace LibraryCrea.Application.Controllers
             try
             {
                 var result = await _service.Post(movimentacao);
-                if(result != null)
+                if (result != null)
                 {
                     return Ok(result);
-                } else
+                }
+                else
                 {
                     return BadRequest();
                 }
@@ -71,7 +74,7 @@ namespace LibraryCrea.Application.Controllers
             {
                 return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
             }
-            
+
         }
 
         [HttpPut]
@@ -84,10 +87,11 @@ namespace LibraryCrea.Application.Controllers
             {
                 var result = await _service.Put(movimentacao);
 
-                if(result != null)
+                if (result != null)
                 {
                     return Ok(result);
-                } else
+                }
+                else
                 {
                     return BadRequest();
                 }
@@ -98,7 +102,7 @@ namespace LibraryCrea.Application.Controllers
             }
         }
 
-        [HttpDelete("{id")]
+        [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(Guid id)
         {
             if (!ModelState.IsValid)

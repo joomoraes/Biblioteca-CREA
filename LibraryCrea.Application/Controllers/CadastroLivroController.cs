@@ -5,6 +5,7 @@ using System.Net;
 
 namespace LibraryCrea.Application.Controllers
 {
+
     [ApiController]
     [Route("api/[controller]")]
     public class CadastroLivroController : ControllerBase
@@ -19,7 +20,7 @@ namespace LibraryCrea.Application.Controllers
         [HttpGet]
         public async Task<ActionResult> GetAll()
         {
-            if (!ModelState.IsValid) 
+            if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
             try
@@ -32,7 +33,8 @@ namespace LibraryCrea.Application.Controllers
             }
         }
 
-        [HttpGet("CadastroLivroWithId/{id}")]
+        [HttpGet]
+        [Route("{id}", Name = "GetCadastroLivroWithId")]
         public async Task<ActionResult> Get(Guid id)
         {
             if (!ModelState.IsValid)
@@ -57,10 +59,11 @@ namespace LibraryCrea.Application.Controllers
             try
             {
                 var result = await _service.Post(cadastroLivro);
-                if(result != null)
+                if (result != null)
                 {
                     return Ok(result);
-                } else
+                }
+                else
                 {
                     return BadRequest();
                 }
@@ -80,10 +83,11 @@ namespace LibraryCrea.Application.Controllers
             try
             {
                 var result = await _service.Put(cadastroLivro);
-                if(result != null)
+                if (result != null)
                 {
                     return Ok(result);
-                } else
+                }
+                else
                 {
                     return BadRequest();
                 }
@@ -93,7 +97,7 @@ namespace LibraryCrea.Application.Controllers
                 return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
             }
         }
-        [HttpDelete("{id}")]   
+        [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(Guid id)
         {
             if (!ModelState.IsValid)
@@ -107,6 +111,6 @@ namespace LibraryCrea.Application.Controllers
             {
                 return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
             }
-        }   
+        }
     }
 }

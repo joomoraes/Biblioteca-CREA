@@ -40,6 +40,5 @@ namespace LibraryCrea.Domain.Dtos.Pessoa
 
         public bool Ativo { get; set; }
 
-        public IEnumerable<DadosParaContato> dadosParaContato { get; set; }
     }
 }

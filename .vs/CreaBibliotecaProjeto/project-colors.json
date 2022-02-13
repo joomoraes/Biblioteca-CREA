@@ -35,7 +35,17 @@
       "ProjectGuid": "9eb72f7d-39b8-4ba8-9856-842f8f892db8",
       "DisplayName": "LibraryCrea.Application",
       "ColorIndex": 5
+    },
+    "6b5c038e-b8d3-4996-be08-9090b078f372": {
+      "ProjectGuid": "6b5c038e-b8d3-4996-be08-9090b078f372",
+      "DisplayName": "LibraryCrea.Domain",
+      "ColorIndex": 6
+    },
+    "2de6cf17-b20d-4bf3-9353-664b85e93f9e": {
+      "ProjectGuid": "2de6cf17-b20d-4bf3-9353-664b85e93f9e",
+      "DisplayName": "LibraryCrea.Application",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 8
 }

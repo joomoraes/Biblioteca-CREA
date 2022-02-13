@@ -7,15 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Google.Apis" Version="1.55.0" />
-    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Google.Apis.Core" Version="1.55.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.2" />
-    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="6.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\LibraryCrea.CrossCutting\LibraryCrea.CrossCutting.csproj" />
+    <ProjectReference Include="..\LibraryCrea.Domain\LibraryCrea.Domain.csproj" />
   </ItemGroup>
 
 </Project>

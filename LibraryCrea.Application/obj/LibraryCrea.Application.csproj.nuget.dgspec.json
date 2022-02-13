@@ -90,6 +90,9 @@
             "projectReferences": {
               "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.CrossCutting\\LibraryCrea.CrossCutting.csproj": {
                 "projectPath": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.CrossCutting\\LibraryCrea.CrossCutting.csproj"
+              },
+              "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Domain\\LibraryCrea.Domain.csproj": {
+                "projectPath": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Domain\\LibraryCrea.Domain.csproj"
               }
             }
           }
@@ -104,19 +107,15 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Google.Apis": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Google.Apis.Core": {
               "target": "Package",
               "version": "[1.55.0, )"
             },
-            "Microsoft.AspNet.WebApi.Core": {
-              "target": "Package",
-              "version": "[5.2.7, )"
-            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[6.0.2, )"
-            },
-            "Microsoft.AspNetCore.JsonPatch": {
               "target": "Package",
               "version": "[6.0.2, )"
             },
