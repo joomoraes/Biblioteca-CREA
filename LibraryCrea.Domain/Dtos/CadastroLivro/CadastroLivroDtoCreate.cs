@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static LibraryCrea.Domain.Dtos.CadastroLivro.CadastroLivroDto;
 
 namespace LibraryCrea.Domain.Dtos.CadastroLivro
 {
@@ -25,6 +26,7 @@ namespace LibraryCrea.Domain.Dtos.CadastroLivro
         [Display(Name = "Edição", Description = "Edição Livro")]
         [Required(ErrorMessage = "Edição deve ser obrigatória")]
         public string Edicao { get; set; }
+
         [Display(Name = "Ano", Description = "Ano da Puplicão")]
         [Required(ErrorMessage = "O ano deve ser obrigatório")]
         public DateTime Ano { get; set; }
@@ -32,16 +34,8 @@ namespace LibraryCrea.Domain.Dtos.CadastroLivro
         public Situacao situacao { get; set; }
 
 
-        public virtual PessoaEntity Autor { get; set; }
         public Guid AutorId { get; set; }
-        public virtual CadastroCategoriaEntity Categoria { get; set; }
         public Guid CategoriaId { get; set; }
-        public enum Situacao
-        {
-            Disponivel,
-            Emprestado,
-            Extraviado,
-            Manutencao
-        }
+
     }
 }

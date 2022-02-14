@@ -2364,7 +2364,8 @@
       "LibraryCrea.Service >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.2",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.2"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.2",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0"
     ]
   },
   "packageFolders": {
@@ -2398,9 +2399,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\CreaLibrary.Domain\\LibraryCrea.Domain.csproj": {
-              "projectPath": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\CreaLibrary.Domain\\LibraryCrea.Domain.csproj"
-            },
             "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Data\\LibraryCrea.Data.csproj": {
               "projectPath": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Data\\LibraryCrea.Data.csproj"
             },
@@ -2440,6 +2438,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.2, )"
+          },
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[6.0.0, )"
           }
         },
         "imports": [

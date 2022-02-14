@@ -20,8 +20,9 @@ namespace LibraryCrea.Application.Controllers
         public async Task<ActionResult> GetAll()
         {
             if (!ModelState.IsValid)
+            {
                 return BadRequest(ModelState);
-
+            }
             try
             {
                 return Ok(await _service.GetAll());
@@ -37,8 +38,9 @@ namespace LibraryCrea.Application.Controllers
         public async Task<ActionResult> Get(Guid id)
         {
             if (!ModelState.IsValid)
+            {
                 return BadRequest(ModelState.IsValid);
-
+            }
             try
             {
                 return Ok(await _service.Get(id));
@@ -54,8 +56,9 @@ namespace LibraryCrea.Application.Controllers
         public async Task<ActionResult> Post([FromBody] PessoaDtoCreate pessoa)
         {
             if (!ModelState.IsValid)
+            {
                 return BadRequest(ModelState);
-
+            }
             try
             {
                 var result = await _service.Post(pessoa);
@@ -79,8 +82,9 @@ namespace LibraryCrea.Application.Controllers
         public async Task<ActionResult> Put([FromBody] PessoaDtoUpdate pessoa)
         {
             if (!ModelState.IsValid)
+            {
                 return BadRequest(ModelState);
-
+            }
             try
             {
                 var result = await _service.Put(pessoa);
@@ -100,14 +104,15 @@ namespace LibraryCrea.Application.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete(Guid Id)
+        public async Task<ActionResult> Delete(Guid id)
         {
             if (!ModelState.IsValid)
+            {
                 return BadRequest(ModelState);
-
+            }
             try
             {
-                return Ok(await _service.Delete(Id));
+                return Ok(await _service.Delete(id));
             }
             catch (ArgumentException ex)
             {

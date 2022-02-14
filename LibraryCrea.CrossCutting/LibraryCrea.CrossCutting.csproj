@@ -14,10 +14,10 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CreaLibrary.Domain\LibraryCrea.Domain.csproj" />
     <ProjectReference Include="..\LibraryCrea.Data\LibraryCrea.Data.csproj" />
     <ProjectReference Include="..\LibraryCrea.Domain\LibraryCrea.Domain.csproj" />
     <ProjectReference Include="..\LibraryCrea.Service\LibraryCrea.Service.csproj" />

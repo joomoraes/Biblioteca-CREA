@@ -21,8 +21,9 @@ namespace LibraryCrea.Application.Controllers
         public async Task<ActionResult> GetAll()
         {
             if (!ModelState.IsValid)
+            {
                 return BadRequest(ModelState);
-
+            }
 
             try
             {
@@ -39,8 +40,9 @@ namespace LibraryCrea.Application.Controllers
         public async Task<ActionResult> Get(Guid id)
         {
             if (!ModelState.IsValid)
+            {
                 return BadRequest(ModelState);
-
+            }
 
             try
             {
@@ -52,70 +54,73 @@ namespace LibraryCrea.Application.Controllers
             }
         }
 
-        [HttpPost]
-        public async Task<ActionResult> Post([FromBody] MovimentacaoDtoCreate movimentacao)
-        {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
+        //[HttpPost]
+        //public async Task<ActionResult> Post([FromBody] MovimentacaoDtoCreate movimentacao)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return BadRequest(ModelState);
+        //    }
+        //    try
+        //    {
+        //        var result = await _service.Post(movimentacao);
+        //        if (result != null)
+        //        {
+        //            return Ok(result);
+        //        }
+        //        else
+        //        {
+        //            return BadRequest();
+        //        }
+        //    }
+        //    catch (ArgumentException ex)
+        //    {
+        //        return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+        //    }
 
-            try
-            {
-                var result = await _service.Post(movimentacao);
-                if (result != null)
-                {
-                    return Ok(result);
-                }
-                else
-                {
-                    return BadRequest();
-                }
-            }
-            catch (ArgumentException ex)
-            {
-                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
-            }
+        //}
 
-        }
+        //[HttpPut]
+        //public async Task<ActionResult> Put([FromBody] MovimentacaoDtoUpdate movimentacao)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return BadRequest(ModelState);
+        //    }
+        //    try
+        //    {
+        //        var result = await _service.Put(movimentacao);
 
-        [HttpPut]
-        public async Task<ActionResult> Put([FromBody] MovimentacaoDtoUpdate movimentacao)
-        {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
+        //        if (result != null)
+        //        {
+        //            return Ok(result);
+        //        }
+        //        else
+        //        {
+        //            return BadRequest();
+        //        }
+        //    }
+        //    catch (ArgumentException ex)
+        //    {
+        //        return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+        //    }
+        //}
 
-            try
-            {
-                var result = await _service.Put(movimentacao);
-
-                if (result != null)
-                {
-                    return Ok(result);
-                }
-                else
-                {
-                    return BadRequest();
-                }
-            }
-            catch (ArgumentException ex)
-            {
-                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
-            }
-        }
-
-        [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete(Guid id)
-        {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
-
-            try
-            {
-                return Ok(await _service.Delete(id));
-            }
-            catch (ArgumentException ex)
-            {
-                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
-            }
-        }
+        //[HttpDelete("{id}")]
+        //public async Task<ActionResult> Delete(Guid id)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return BadRequest(ModelState);
+        //    }
+        //    try
+        //    {
+        //        return Ok(await _service.Delete(id));
+        //    }
+        //    catch (ArgumentException ex)
+        //    {
+        //        return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+        //    }
+        //}
     }
 }

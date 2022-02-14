@@ -35,13 +35,7 @@ namespace LibraryCrea.Domain.Model
             set { _LivroId = value; }
         }
 
-        private PessoaEntity _PessoaEmprestimo;
 
-        public PessoaEntity PessoaEmprestimo
-        {
-            get { return _PessoaEmprestimo; }
-            set { _PessoaEmprestimo = value; }
-        }
 
         private Guid _PessoaEmprestimoId;
 
@@ -51,13 +45,7 @@ namespace LibraryCrea.Domain.Model
             set { _PessoaEmprestimoId = value; }
         }
 
-        private PessoaEntity _PessoaResponsavel;
 
-        public PessoaEntity PessoaResponsavel
-        {
-            get { return _PessoaResponsavel; }
-            set { _PessoaResponsavel = value; }
-        }
 
         private Guid _PessoaResponsavelId;
 
