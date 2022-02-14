@@ -14,7 +14,8 @@
           "LibraryCrea.Service": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.2",
-          "Microsoft.EntityFrameworkCore.Tools": "6.0.2"
+          "Microsoft.EntityFrameworkCore.Tools": "6.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "runtime": {
           "LibraryCrea.CrossCutting.dll": {}

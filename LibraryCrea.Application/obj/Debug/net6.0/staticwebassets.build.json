@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9vtzrtk8cMqN6eiIyMudz98qwxsTGcH9K1Ab3Xka1hY=",
+  "Hash": "DUo7lYcRiD56XVxZ5JZbjxNspsuROicxhuQUGGp3Omk=",
   "Source": "LibraryCrea.Application",
   "BasePath": "_content/LibraryCrea.Application",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Application\\obj\\Debug\\net6.0\\scopedcss\\bundle\\LibraryCrea.Application.styles.css",
-      "SourceId": "LibraryCrea.Application",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Application\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/LibraryCrea.Application",
-      "RelativePath": "LibraryCrea.Application.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Application\\obj\\Debug\\net6.0\\scopedcss\\bundle\\LibraryCrea.Application.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Application\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LibraryCrea.Application.bundle.scp.css",
-      "SourceId": "LibraryCrea.Application",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Application\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/LibraryCrea.Application",
-      "RelativePath": "LibraryCrea.Application.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Application\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LibraryCrea.Application.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Users\\joao.alves\\Desktop\\Projeto\\API\\ApiPortalLicenca\\CreaBibliotecaProjeto\\LibraryCrea.Application\\wwwroot\\css\\site.css",
       "SourceId": "LibraryCrea.Application",

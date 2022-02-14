@@ -45,7 +45,17 @@
       "ProjectGuid": "2de6cf17-b20d-4bf3-9353-664b85e93f9e",
       "DisplayName": "LibraryCrea.Application",
       "ColorIndex": 7
+    },
+    "cc3c2539-576b-4e6d-b4bc-a298c05d82b8": {
+      "ProjectGuid": "cc3c2539-576b-4e6d-b4bc-a298c05d82b8",
+      "DisplayName": "LibraryCrea.Application",
+      "ColorIndex": 8
+    },
+    "691872b8-3e63-421a-b13e-5b64dda70c1e": {
+      "ProjectGuid": "691872b8-3e63-421a-b13e-5b64dda70c1e",
+      "DisplayName": "WebApplication1",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 10
 }

@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static LibraryCrea.Domain.Entities.PessoaEntity;
 
 namespace LibraryCrea.Domain.Dtos.Pessoa
 {
@@ -30,13 +31,7 @@ namespace LibraryCrea.Domain.Dtos.Pessoa
         public string CPF { get; set; }
 
         public Tipo tipo { get; set; }
-        public enum Tipo
-        {
-            Autor,
-            Profissional,
-            Aluno,
-            Outros
-        }
+    
 
         public bool Ativo { get; set; }
 

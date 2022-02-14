@@ -68,13 +68,7 @@ namespace LibraryCrea.Domain.Model
             set { _Ativo = value; }
         }
 
-        private IEnumerable<DadosParaContato> _dadosParaContato;
 
-        public IEnumerable<DadosParaContato> dadosParaContato
-        {
-            get { return _dadosParaContato; }
-            set { _dadosParaContato = value; }
-        }
 
     }
 }

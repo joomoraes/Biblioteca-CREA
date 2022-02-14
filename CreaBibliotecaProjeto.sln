@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryCrea.Service", "Libr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryCrea.Domain", "LibraryCrea.Domain\LibraryCrea.Domain.csproj", "{6B5C038E-B8D3-4996-BE08-9090B078F372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryCrea.Application", "LibraryCrea.Application\LibraryCrea.Application.csproj", "{CC3C2539-576B-4E6D-B4BC-A298C05D82B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryCrea.Application", "LibraryCrea.Application\LibraryCrea.Application.csproj", "{CC3C2539-576B-4E6D-B4BC-A298C05D82B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

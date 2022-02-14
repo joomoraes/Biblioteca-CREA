@@ -1,4 +1,5 @@
 ﻿using LibraryCrea.Data.Mappings;
+using LibraryCrea.Data.Seeds;
 using LibraryCrea.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -28,6 +29,11 @@ namespace LibraryCrea.Data.Context
             modelBuilder.Entity<CadastroLivroEntity>(new CadastroLivroMap().Configure);
             modelBuilder.Entity<MovimentcaoEntity>(new MovimentacaoMap().Configure);
             modelBuilder.Entity<PessoaEntity>(new PessoaMap().Configure);
+
+            CadastroCategoriaSeeds.CadastroCategoria(modelBuilder);
+            CadastroLivroSeeds.CadastroLivro(modelBuilder);
+            MovimentacaoSeeds.Movimentacao(modelBuilder);
+            PessoaSeeds.Pessoa(modelBuilder);
         }
     }
 }

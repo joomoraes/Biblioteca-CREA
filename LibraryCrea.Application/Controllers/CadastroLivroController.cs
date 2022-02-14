@@ -21,8 +21,9 @@ namespace LibraryCrea.Application.Controllers
         public async Task<ActionResult> GetAll()
         {
             if (!ModelState.IsValid)
+            {
                 return BadRequest(ModelState);
-
+            }
             try
             {
                 return Ok(await _service.GetAll());
@@ -38,8 +39,9 @@ namespace LibraryCrea.Application.Controllers
         public async Task<ActionResult> Get(Guid id)
         {
             if (!ModelState.IsValid)
+            {
                 return BadRequest(ModelState);
-
+            }
             try
             {
                 return Ok(await _service.Get(id));
@@ -54,8 +56,9 @@ namespace LibraryCrea.Application.Controllers
         public async Task<ActionResult> Post([FromBody] CadastroLivroDtoCreate cadastroLivro)
         {
             if (!ModelState.IsValid)
+            {
                 return BadRequest(ModelState);
-
+            }
             try
             {
                 var result = await _service.Post(cadastroLivro);
@@ -74,35 +77,38 @@ namespace LibraryCrea.Application.Controllers
             }
         }
 
-        [HttpPut]
-        public async Task<ActionResult> Put([FromBody] CadastroLivroDtoUpdate cadastroLivro)
-        {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
+        //[HttpPut]
+        //public async Task<ActionResult> Put([FromBody] CadastroLivroDtoUpdate cadastroLivro)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return BadRequest(ModelState);
+        //    }
+        //    try
+        //    {
+        //        var result = await _service.Put(cadastroLivro);
+        //        if (result != null)
+        //        {
+        //            return Ok(result);
+        //        }
+        //        else
+        //        {
+        //            return BadRequest();
+        //        }
+        //    }
+        //    catch (ArgumentException ex)
+        //    {
+        //        return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+        //    }
+        //}
 
-            try
-            {
-                var result = await _service.Put(cadastroLivro);
-                if (result != null)
-                {
-                    return Ok(result);
-                }
-                else
-                {
-                    return BadRequest();
-                }
-            }
-            catch (ArgumentException ex)
-            {
-                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
-            }
-        }
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(Guid id)
         {
             if (!ModelState.IsValid)
+            {
                 return BadRequest(ModelState);
-
+            }
             try
             {
                 return Ok(await _service.Delete(id));

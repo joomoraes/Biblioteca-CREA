@@ -16,7 +16,7 @@ namespace LibraryCrea.Service.Services
     {
         private IRepository<MovimentcaoEntity> _repository;
 
-        public IMapper _mapper;
+        private IMapper _mapper;
 
         public MovimentacaoService(IRepository<MovimentcaoEntity> repository,
             IMapper mapper)
