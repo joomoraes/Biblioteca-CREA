@@ -53,14 +53,19 @@ A camada de serviço é a camada que cria as dependências que vão carregar o o
    ef dotnet database update
    ```
    após realizar estes comando, rode a aplicação e deverá ver está tela **<br>
-   ![telaApiCrea]()**<br>
+   ![telaApiCrea](https://github.com/joomoraes/Biblioteca-CREA/blob/mainMaster/readMD-images/img3.png?raw=true)**<br>
    Caso aparecer está tela**<br>
-   ![telaFalha]()**<br>
+   ![telaFalha](https://github.com/joomoraes/Biblioteca-CREA/blob/mainMaster/readMD-images/img1.png?raw=true)**<br>
    Reinstale o **swashbuckle**, e utilize os seguinte comandos na camada de **Application**
    ```
    dotnet build
    dotnet build --configuration Release
    dotnet restore -f 
    ```
-   Tente novamente certificando-se que a aplicação está devidamento migrada para o banco de sua escolha 
+   Tente novamente certificando-se que a aplicação está devidamento migrada para o banco de sua escolha.
+   
+   **Note**: Inicialmente foi criada uma tela UI, de acesso ao usuário, mas devido ao curto prazo, estipulou-se que não haveria tempo suficiente para realização de todos os testes 
+   ![telaIndex](https://github.com/joomoraes/Biblioteca-CREA/blob/mainMaster/readMD-images/img2.png?raw=true)
+   
+   **Note** Existe uma versão de release-produção do projeto em um site [release](https://github.com/joomoraes/Biblioteca-CREA/blob/mainMaster/ApiBibliotecaCreaReleaseFonteIISDeploy.rar) pronto para ser instalado no IIS, com as devidas migrações sendo feitas no Visual Studio 
    
