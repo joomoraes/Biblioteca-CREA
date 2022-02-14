@@ -9,8 +9,8 @@ Projeto criado para processo seletivo, usando arquitetura DDD com orientação a
 **[Domain](#Domain)**<br>
 **[Data](#Data)**<br>
 **[Service](#Service)**<br>
-**[Building the Extension Bundles](#building-the-extension-bundles)**<br>
-**[Next Steps, Credits, Feedback, License](#next-steps)**<br>
+**[Sobre](#Sobre)**<br>
+
 
 
 ### Swagger 
@@ -44,3 +44,23 @@ A camada de data é a camada que o ORM, e mapeia o relacionamento da entidade e 
 A camada de serviço é a camada que cria as dependências que vão carregar o objeto ao e o devolve-lo ao longo da aplicação.
 ![service](https://thiagoborges.net.br/wp-content/uploads/2016/09/web_service.png)
 
+
+### Sobre
+
+**Note:** A aplicação está documentada com a ferramenta presente na biblioteca SwashBuclke, a biblioteca pode apresentar conflitos durante seu ambiente de produção ou debug, recomenda-se usar o Visual Studio mais recente e o NetFramework atualizado na mesma, a migração pode ser realizada na camada de Data, com o Power Shell do console da IDE com o seguinte comando presente no **Nuget Ef Core**  
+```
+   ef dotnet new migrations <nome migração>
+   ef dotnet database update
+   ```
+   após realizar estes comando, rode a aplicação e deverá ver está tela **<br>
+   ![telaApiCrea]()**<br>
+   Caso aparecer está tela**<br>
+   ![telaFalha]()**<br>
+   Reinstale o **swashbuckle**, e utilize os seguinte comandos na camada de **Application**
+   ```
+   dotnet build
+   dotnet build --configuration Release
+   dotnet restore -f 
+   ```
+   Tente novamente certificando-se que a aplicação está devidamento migrada para o banco de sua escolha 
+   
