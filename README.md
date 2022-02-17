@@ -54,7 +54,7 @@ A camada de serviço é a camada que cria as dependências que vão carregar o o
    ```
    após realizar estes comando, rode a aplicação e deverá ver está tela **<br>
    ![telaApiCrea](https://github.com/joomoraes/Biblioteca-CREA/blob/mainMaster/readMD-images/img3.png?raw=true)**<br>
-   Caso aparecer está tela**<br>
+   Caso aparecer esta tela**<br>
    ![telaFalha](https://github.com/joomoraes/Biblioteca-CREA/blob/mainMaster/readMD-images/img1.png?raw=true)**<br>
    Reinstale o **swashbuckle**, e utilize os seguinte comandos na camada de **Application**
    ```
